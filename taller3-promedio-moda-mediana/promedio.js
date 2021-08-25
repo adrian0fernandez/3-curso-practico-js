@@ -30,9 +30,9 @@ function calculaMediaAritmetica(lista) {
     const sumaLista = lista.reduce(
     function (valorAcumulado = 0, nuevoElemento) {
         return valorAcumulado + nuevoElemento;
-        }
-        );
-    
-    const prompedioLista = sumaLista/lista.length;
-    return prompedioLista;
     }
+    );
+    
+const prompedioLista = sumaLista/lista.length;
+return prompedioLista;
+}
